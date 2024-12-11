@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    font-family: "Host Grotesk", sans-serif;
+    overflow-y: hidden;
+}
+
+.header{
+    display: inline-flex;
+    justify-self: auto;
+    font-size: 40px;
+    padding: 25px;
+    padding: 25px 0 0 25px;
+    height: 10rem;
+}
+
+.direita{
+    display: flex;
+    float: right;
+    justify-self: auto;
+    flex-direction: column;
+    padding: 25px 25px 0 0;
+    height: 10rem;
+    gap: 10px;
+}
+
+.placar, .timer-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+
+#caixa{
+    position: absolute;
+    display: flex;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .5s ;
+    z-index: 1;
+}
